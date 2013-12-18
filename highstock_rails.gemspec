@@ -9,9 +9,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ruslan Voloshin"]
   spec.email         = ["rebisall@gmail.com"]
   spec.description   = %q{Gem for easily adding Highstock to the Rails Asset Pipeline}
-  spec.summary       = %q{Gem that includes Highstock (Interactive JavaScript charts for your web projects), in the Rails Asset Pipeline introduced in Rails 3.1}
-  spec.homepage      = "http://aboutme.com.ua"
-  spec.license       = "MIT"
+  spec.summary       = %q{Gem that includes Highstock (Interactive JavaScript charts for your web projects), in the Rails Asset Pipeline introduced in Rails 3.1.
+Copyright
+The Software is the property of Highsoft and is protected by copyright laws and international copyright
+treaties, as well as other intellectual property laws and treaties.
+}
+  spec.homepage      = "http://www.highcharts.com/products/highstock"
+  spec.license       = "http://shop.highsoft.com/highstock.html"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
